@@ -40,7 +40,7 @@ class Connector:
         self.client.db_write(db_number, start, bytes_to_write)
 
 
-# Create custom function for your problem
+# Create custom class for your problem
 class StabConnector(Connector):
     def __init__(self, ip, port=0, data_block=1):
         super(StabConnector, self).__init__(ip, port, data_block)
