@@ -1,6 +1,6 @@
 # Wrapper for library snap7
 
-#### Install
+#### Installation
 ```
 pip install python-snap7
 ```
